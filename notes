@@ -1,9 +1,45 @@
 Using the Console
 --------------------
 
-undefined -- means nothing returned.
+undefined -- means nothing returned
 
 console.log(variable)
 
-let, const -- kwywords to declare variables
-`
+let, const -- kwywords to declare variables.
+
+Data types in js
+-------------------
+primitive and reference data types
+
+primitive
+----------
+stored on the stack.
+accessed by its values .
+
+6 data types--
+-------------------
+srtring
+number(int, decimal ,floats)
+booelan
+null
+undefined (if declared variable not assigned value it is undefined)
+symbols(ES6)
+
+reference
+----------
+accessed  by reference. 
+data not stored on variable.    
+here data stored on heap
+
+arrays
+object literals
+func
+dates
+
+
+Dynamically types language
+-----------------------------
+types r associated with values not variables.
+same variable can hold diff. types of values.
+no need to speciy while declaring variable
+
