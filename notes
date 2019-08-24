@@ -1,0 +1,9 @@
+Using the Console
+--------------------
+
+undefined -- means nothing returned.
+
+console.log(variable)
+
+let, const -- kwywords to declare variables
+`
