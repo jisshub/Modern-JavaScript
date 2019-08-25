@@ -43,7 +43,7 @@ const address =
 
 console.log(typeof address)
 
-// dates
+// datesconsole.log(date)
 const date = new Date
 console.log(typeof date)
 

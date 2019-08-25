@@ -18,14 +18,6 @@ console.log(name)
 name = 'Corey Schafer'
 console.log(name)
 
-// below shows err. since variable name already declared
-// let name
-name = 'Donald'
-console.log(name)
-
-let new_name 
-new_name='Donald'
-console.log(new_name)
 
 // --------------------------------------------------
 
