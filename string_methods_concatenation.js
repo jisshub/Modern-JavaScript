@@ -100,7 +100,8 @@ sent = 'my age is 23'
 console.log(sent.replace('23', '21'))
 
 // includes() -- returns true if search string appears 
-// in the inputted string. else false 
+// in the inputted string.
+ 
 
 let car = 'baleno'
 yesno = car.includes('e')
@@ -110,5 +111,21 @@ yesno = car.includes('r')
 console.log(yesno)
 // example-3
 console.log(car.includes('n'))
+
+
+
+// pracitce
+name = 'jissmon jose'
+console.log(name.replace('jissmon', 'jomon'))
+
+
+console.log(name.substring(3,7))
+
+console.log(name.includes('jis'))
+
+name = 'jomon jose'
+console.log(name.split(' '))
+
+
 
 
