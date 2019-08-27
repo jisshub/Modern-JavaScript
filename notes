@@ -43,3 +43,8 @@ types r associated with values not variables.
 same variable can hold diff. types of values.
 no need to speciy while declaring variable
 
+this keyword
+---------------
+Using this keyword to access the key within the object
+eg:
+    this.age -- acessing the key 'age'
