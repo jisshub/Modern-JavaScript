@@ -94,3 +94,27 @@ console.log(num4)
 console.log(num2)
 console.log(num3)
 
+
+
+// practice
+const num10 = [45,56,55]
+num10.push(22)
+console.log(num10)
+
+
+num10.pop()
+console.log(num10)
+
+num10.unshift(11)
+console.log(num10)
+
+num10.shift()
+console.log(num10)
+
+console.log(num10.sort())
+console.log(num10.reverse())
+
+// ------------------------------------
+
+
+
