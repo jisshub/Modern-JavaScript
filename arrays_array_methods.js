@@ -60,7 +60,8 @@ num1.reverse()
 
 // arrays sort 
 num1.sort()
-num2.sort()
+num2.sort()width="100%">
+  c
 
 // concatenate arrays
 num3 = num1.concat(num2)

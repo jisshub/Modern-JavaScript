@@ -65,3 +65,25 @@ console.log(person.getjob('web developer'))
 console.log(person.ageafter(10))
 console.log(person.addmore())
 
+
+// Practice 
+const college=
+{
+    name:'fisat',
+    place:'angamaly',
+    departments: ['computer science' ,'engineering', 'management'],
+    students: {
+        'mca': 200,
+        'btech': 200,
+        'mba': 100
+
+    }
+
+
+}
+console.log(college.name)
+console.log(college.place)
+console.log(college.students)
+console.log(college.students.btech)
+
+
