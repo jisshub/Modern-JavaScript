@@ -19,6 +19,9 @@ function hello() {
 }
 
 // enclose all tags and variables in a backtick
+// to get the value of each constant vairable,
+// use ${variablename}.
+
 html =`
       <ul>
         <li>Name: ${name}</li>

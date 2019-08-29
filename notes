@@ -7,6 +7,10 @@ console.log(variable)
 
 let, const -- kwywords to declare variables.
 
+
+
+
+
 Data types in js
 -------------------
 primitive and reference data types
@@ -50,9 +54,8 @@ eg:
     this.age -- acessing the key 'age'
 
 
-let and const
-----------------
-both r block scopped
-means it is accessible with in a block.
-for eg: it can be accessed with in a if statement
-or for loop
+
+Functions in objects
+-------------------------
+
+when Functions are put inside a object it is called a method,
