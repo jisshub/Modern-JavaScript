@@ -1,0 +1,9 @@
+document object model
+----------------------
+
+tree of nodes created by browser.
+
+js can b used to read/write/manipulate to the document
+
+never use jquery for dom manipulations
+
