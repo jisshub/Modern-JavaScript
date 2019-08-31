@@ -7,3 +7,8 @@ js can b used to read/write/manipulate to the document
 
 never use jquery for dom manipulations
 
+
+appendChild() function
+---------------------
+to append something inside the li.
+

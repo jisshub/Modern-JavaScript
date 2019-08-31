@@ -1,25 +1,25 @@
 // FOR LOOPS
 
-// for(let i = 1; i <= 10; i++)
-// {
-//     console.log(i)
+for(let i = 1; i <= 10; i++)
+{
+    console.log(i)
 
-// }
+}
 
 
 // // using if inside the for.
 // // ------------------------
-// for(let i = 0; i <= 10; i++)
+for(let i = 0; i <= 10; i++)
 
-// {
-//     if (i == 2)
-//     {
-//         console.log(`number: ${i}`)
-//     }
+{
+    if (i == 2)
+    {
+        console.log(`number: ${i}`)
+    }
  
-//         console.log(i)
+        console.log(i)
     
-// }
+}
 
 
 // using break  and continue
@@ -59,5 +59,24 @@ while(age < 25){
     console.log('age is '+ age)
     age++
 }
+
+
+
+// for each
+------------
+
+loop thru each given element and prints it.
+
+array.forEach(function(html element)
+{
+
+console.log(html_element)
+}
+
+
+
+
+
+
 
 

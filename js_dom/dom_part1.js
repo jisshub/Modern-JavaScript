@@ -34,6 +34,10 @@
 
 
 
+// adding an id to an element
+// document.querySelector('.fa').id='icon-1'
+
+
 // Documet.querySelector
 // -------------------------
 
@@ -161,6 +165,10 @@ even_li.forEach(function(li)
 // {
 //     even_li[i].style.background = 'blue'
 // }
+
+
+// practice
+// // console.log(document.querySelector('.card-title').textContent)
 
 
 
