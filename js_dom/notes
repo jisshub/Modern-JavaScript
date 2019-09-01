@@ -24,3 +24,7 @@ addEventListener(event, function)
 
 when v run the event on an object.
 code inside it exectes
+
+mouse events
+-----------------
+

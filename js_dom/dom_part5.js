@@ -28,8 +28,10 @@ function onClick(e)
 {
     
     e.target.innerText = 'Delete Task'
+    
     // here v change the text of btn while v click on it.
 }
+
 
 
 
