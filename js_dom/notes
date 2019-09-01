@@ -12,3 +12,15 @@ appendChild() function
 ---------------------
 to append something inside the li.
 
+
+EventListener
+---------------------
+addEventListener(event, function)
+()
+{
+    code.
+}
+
+
+when v run the event on an object.
+code inside it exectes
