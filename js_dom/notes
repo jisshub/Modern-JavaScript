@@ -13,6 +13,11 @@ appendChild() function
 to append something inside the li.
 
 
+target 
+----------------
+target denotes the element in which the event happens.
+
+
 EventListener
 ---------------------
 addEventListener(event, function)
