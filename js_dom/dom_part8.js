@@ -5,26 +5,26 @@
 // https://www.quirksmode.org/js/events_order.html
 
 
-const title = document.querySelector('.card-title')
-title.addEventListener('click', function()
+// const title = document.querySelector('.card-title')
+// title.addEventListener('click', function()
 
-{
-    console.log('Card Title')
-})
+// {
+//     console.log('Card Title')
+// })
 
 
-const content = document.querySelector('.card-content')
-content.addEventListener('click', function()
+// const content = document.querySelector('.card-content')
+// content.addEventListener('click', function()
 
-{
-    console.log('Card content')
-})
+// {
+//     console.log('Card content')
+// })
 
-const card = document.querySelector('.card')
-card.addEventListener('click', function()
-{
-    console.log('Card')
-})
+// const card = document.querySelector('.card')
+// card.addEventListener('click', function()
+// {
+//     console.log('Card')
+// })
 
 
 //  EVENT DELEGATION

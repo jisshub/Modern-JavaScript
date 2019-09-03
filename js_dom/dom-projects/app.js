@@ -7,15 +7,24 @@ const  clearBtn = document.querySelector('.clear-tasks')
 const taskInp = document.querySelector('#task')
 
 
-
 // load event listeners
 loadEventListeners()
 
 // create a fucntion to laod all event listeners
 function loadEventListeners()
 {   
-    // add task event
+    // add submit event
     form.addEventListener('submit', addEvent)
+    // add event listener to remove task
+    // use event delegation to remove each list items
+    taskList.addEventListener('click', removeEvent)
+    // add am vent listener for cleartaaks
+    clearBtn.addEventListener('click', clearTasks)
+
+    // add listener for input 
+    filter.addEventListener('mouseleave', filterTask)
+
+
   
 }
 
@@ -51,3 +60,47 @@ function addEvent(e)
 }
 
 
+// filter and delete tasks
+function removeEvent(e)
+{
+    // first need to check whther target element havea 
+    // parent element with class delete-item, to do that,
+    if(e.target.parentElement.classList.contains('delete-item'))
+    {
+        // add a confimation mesage bevore removing
+        if(confirm('Are You sure: ?'))
+        {
+
+        
+        // then access parent of parent of target element and then call remove.
+        e.target.parentElement.parentElement.remove()
+        }
+        // here order is icon - a tag - li element.
+        // so removed li element.
+        
+    }
+   
+
+}
+
+function clearTasks(e)
+{
+    if(taskList.children.length === 0)
+    {
+        alert('no tasks')
+    }
+    if(confirm('Are You Sure ?'))
+    {
+        taskList.remove()
+    }
+}
+
+function filterTask(e)
+{
+    console.log(e.target.value)
+    // if(e.target.value === )
+    // {
+
+    // }
+
+}

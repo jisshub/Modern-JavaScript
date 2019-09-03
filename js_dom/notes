@@ -18,6 +18,7 @@ target
 target denotes the element in which the event happens.
 
 
+
 EventListener
 ---------------------
 addEventListener(event, function)
