@@ -97,7 +97,7 @@ doc3 = Array.from(doc3)
 console.log(doc3)
 
 // looping thru each items;
-// use forEach and pass the elementto be looped to a
+// use forEach and pass a function name to be looped to a
 // function.
 
 

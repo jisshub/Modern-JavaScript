@@ -15,10 +15,8 @@ newHeading.appendChild(document.createTextNode('Task-Title'))
 // next - fetch the elemnt to be replaced
 oldHeading = document.querySelector('#task-title')
 
-
 // get the parent node of node to be replaced
 parentNode = document.querySelector('.card-action')
-
 
 // use replaceChild() function and pass both nodes aas args.  use parentnode.replaceChild else error shows.
 parentNode.replaceChild(newHeading, oldHeading)

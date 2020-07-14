@@ -1,4 +1,4 @@
-// usin template lterals to pass the date from
+// usin template lterals to pass the data from
 // js to html document
 
 const name = 'jissmon'
